@@ -1,0 +1,6 @@
+version: "3.2"
+services:
+    my-web:
+        image: httpd:latest
+        ports: 
+         - "8080:80"
